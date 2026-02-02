@@ -1,22 +1,102 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Register</title>
-</head>
-<body>
-    <h2>User Registration</h2>
-
-    <form action="/register" method="post">
-        <label>Full Name:</label><br>
-        <input type="text" name="fullname"><br><br>
-
-        <label>Email:</label><br>
-        <input type="email" name="email"><br><br>
-
-        <label>Password:</label><br>
-        <input type="password" name="password"><br><br>
-
-        <input type="submit" value="Register">
-    </form>
-</body>
-</html>
+db.student.insertMany([
+  {
+    rollNo: 1,
+    name: "Arjun Kumar",
+    age: 20,
+    branch: "ECE",
+    year: 3,
+    email: "arjun1@example.com",
+    marks: { math: 82, physics: 76, electronics: 88 },
+    isActive: true
+  },
+  {
+    rollNo: 2,
+    name: "Bhavya Reddy",
+    age: 21,
+    branch: "CSE",
+    year: 4,
+    email: "bhavya2@example.com",
+    marks: { math: 91, physics: 85, electronics: 79 },
+    isActive: true
+  },
+  {
+    rollNo: 3,
+    name: "Charan Das",
+    age: 19,
+    branch: "EEE",
+    year: 2,
+    email: "charan3@example.com",
+    marks: { math: 68, physics: 72, electronics: 64 },
+    isActive: false
+  },
+  {
+    rollNo: 4,
+    name: "Divya Sharma",
+    age: 22,
+    branch: "ECE",
+    year: 4,
+    email: "divya4@example.com",
+    marks: { math: 87, physics: 90, electronics: 93 },
+    isActive: true
+  },
+  {
+    rollNo: 5,
+    name: "Eshan Patel",
+    age: 20,
+    branch: "MECH",
+    year: 3,
+    email: "eshan5@example.com",
+    marks: { math: 74, physics: 69, electronics: 55 },
+    isActive: true
+  },
+  {
+    rollNo: 6,
+    name: "Farah Khan",
+    age: 21,
+    branch: "CSE",
+    year: 4,
+    email: "farah6@example.com",
+    marks: { math: 95, physics: 89, electronics: 92 },
+    isActive: true
+  },
+  {
+    rollNo: 7,
+    name: "Gopi Krishna",
+    age: 18,
+    branch: "ECE",
+    year: 1,
+    email: "gopi7@example.com",
+    marks: { math: 60, physics: 65, electronics: 58 },
+    isActive: false
+  },
+  {
+    rollNo: 8,
+    name: "Harini Iyer",
+    age: 20,
+    branch: "IT",
+    year: 3,
+    email: "harini8@example.com",
+    marks: { math: 88, physics: 81, electronics: 77 },
+    isActive: true
+  },
+  {
+    rollNo: 9,
+    name: "Imran Ali",
+    age: 22,
+    branch: "CIVIL",
+    year: 4,
+    email: "imran9@example.com",
+    marks: { math: 70, physics: 73, electronics: 62 },
+    isActive: true
+  },
+  {
+    rollNo: 10,
+    name: "Jyothi Naidu",
+    age: 19,
+    branch: "ECE",
+    year: 2,
+    email: "jyothi10@example.com",
+    marks: { math: 84, physics: 79, electronics: 86 },
+    isActive: true
+  }
+]);
